@@ -2,7 +2,8 @@
 ## IJ-oeververbinding-geluidsfragment met bijpassende grappige animatie
 https://deannabosschert.github.io/web-design-1819/
 
-![gif screencapture of webpage](https://paper-attachments.dropbox.com/s_D5FBBD5A463835C78C51F36454848EB6E88351D338EB8B52E4999650271BB022_1555576426732_webdesign_screencapture+1.gif)
+![gif screencapture of webpage](https://paper-attachments.dropbox.com/s_D5FBBD5A463835C78C51F36454848EB6E88351D338EB8B52E4999650271BB022_1555577737017_5cb83b1d85606225064296.gif)
+
 
 
 ## Design Challenge
