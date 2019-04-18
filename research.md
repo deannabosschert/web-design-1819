@@ -24,3 +24,5 @@ https://www.dawsons.co.uk/blog/what-is-panning
 
 ## CSS Animations with sound
 https://www.sitepoint.com/syncing-css-animations-with-html5-audio/
+
+## Questions to ask Larissa
