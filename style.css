@@ -1,126 +1,146 @@
-	html {
-    padding: 0;
-    margin: 0;
-    max-height: 100%;
-    max-width: 100%;
-    overflow: hidden;
-    font-family: sans-serif;
-	}
+html {
+  padding: 0;
+  margin: 0;
+  max-height: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  font-family: sans-serif;
+}
 
-	body {
-		 background: #e6ffff;
-     display: flex;
-	}
+body {
+  background: #e6ffff;
+  display: flex;
+}
 
-  main{
-    margin-left: 25%;
-    margin-right: 25%;
-    max-width: 50%;
-    text-align: center;
+main {
+  margin-left: 25%;
+  margin-right: 25%;
+  max-width: 50%;
+  text-align: center;
+}
+
+h1 {
+}
+
+h2 {
+  margin-top: -2%;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+.screenreader {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.boat {
+  width: 60%;
+  padding-left: 100%;
+  padding-right: 100%;
+  margin-top: 5%;
+  animation: waving 8s linear infinite;
+  animation-delay: 0.25s;
+  /* animation-iteration-count: 2; */
+}
+
+.boat:hover {
+  padding-left: 100%;
+  padding-right: 100%;
+  animation: wavinghover 8s infinite;
+}
+
+@keyframes waving {
+  0% {
+    transform: translate(0%, 0%);
   }
-
-  h1{
-
+  25% {
+    transform: translate(-10%, -15%);
   }
-
-  h2{
-    margin-top: -2%;
-
+  50% {
+    transform: translate(-37.5%, 2%);
   }
-
-  p{
-    font-size: 1.2rem;
+  75% {
+    transform: translate(-100%, -9%);
   }
+  100% {
+    transform: translate(-130%, 0%);
+  }
+}
 
-  .screenreader{
-		position:absolute;
-		left:-10000px;
-		top:auto;
-		width:1px;
-		height:1px;
-		overflow:hidden;
-	}
+@keyframes wavinghover {
+  0% {
+    transform: translate(-32.5%, 0%);
+  }
+  100% {
+    transform: translate(-32.5%, 0%);
+  }
+}
 
-  .boat {
-    width: 60%;
-    padding-left: 100%;
-    padding-right: 100%;
-    margin-top: 5%;
-    animation: waving 8s linear infinite;
-		animation-delay:0.25s;
-    /* animation-iteration-count: 2; */
-		}
+@keyframes rocking {
+  0% {
+    transform: rotate(1deg) translate(0%, 0%);
+  }
+  25% {
+    transform: rotate(-1deg) translate(0%, -10%);
+  }
+  50% {
+    transform: rotate(1deg) translate(0%, 0%);
+  }
+  75% {
+    transform: rotate(-1deg) translate(0%, -7%);
+  }
+  100% {
+    transform: rotate(1deg) translate(0%, 0%);
+  }
+}
 
-    .boat:hover {
-      padding-left: 100%;
-      padding-right: 100%;
-      animation: wavinghover 8s infinite;
-  		}
+.wave {
+  width: 3000px;
+  height: 3025px;
+  position: absolute;
+  top: -10%;
+  left: 10%;
+  margin-left: -65%;
+  margin-top: 45%;
+  border-radius: 35%;
+  background: #ccebff;
+  animation: wave 15s infinite linear;
+  overflow: hidden;
+  position: absolute;
+  z-index: -2;
+}
 
+@keyframes wave {
+  from {
+    transform: rotate(0deg);
+  }
+  from {
+    transform: rotate(360deg);
+  }
+}
 
-    @keyframes waving{
-      0% {transform:translate(0%,0%)}
-      25% {transform:translate(-10%,-15%)}
-      50% {transform:translate(-37.5%, 2%)}
-      75% {transform:translate(-100%,-9%)}
-      100%{transform:translate(-130%,0%)}
-      }
+.inleiding {
+  transform: translate(0px, 0px);
+  animation: rocking 4s linear infinite;
+  animation-delay: 0.25s;
+  width: 80%;
+  text-align: left;
+  margin-left: -8%;
+	font-size: 1.2rem;
+}
 
-      @keyframes wavinghover{
-        0% {transform:translate(-32.5%,0%)}
-        100%{transform:translate(-32.5%,0%)}
-        }
-
-
-
-
-    @keyframes rocking{
-  		0% {transform: rotate(1deg)translate(0%,0%)}
-  		25% {transform:rotate(-1deg) translate(0%, -10%)}
-  		50% {transform:rotate(1deg) translate(0%,0%)}
-  		75% {transform:rotate(-1deg) translate(0%, -7%)}
-  		100%{transform:rotate(1deg) translate(0%,0%)}
-  		}
-
-
-
-    .wave {
-      width: 3000px;
-      height: 3025px;
-      position: absolute;
-      top: -10%;
-      left: 10%;
-      margin-left: -65%;
-      margin-top: 45%;
-      border-radius: 35%;
-      background: #ccebff;
-      animation: wave 15s infinite linear;
-      overflow: hidden;
-      position: absolute;
-      z-index: -2;
-
-    }
-
-    @keyframes wave {
-      from { transform: rotate(0deg);}
-      from { transform: rotate(360deg);}
-    }
-
-    .inleiding{
-      transform: translate(0px,0px);
-      animation: rocking 4s linear infinite;
-      animation-delay:0.25s;
-      width: 80%;
-      text-align: left;
-      margin-left: -8%;
-      }
-
-      .inleiding2{
-        transform: translate(0px,0px);
-        animation: rocking 4s linear infinite;
-        animation-delay:0.25s;
-        width: 80%;
-        text-align: left;
-        margin-left: 38%;
-        margin-top: -2.5%;
-        }
+.inleiding2 {
+  transform: translate(0px, 0px);
+  animation: rocking 4s linear infinite;
+  animation-delay: 0.25s;
+  width: 80%;
+  text-align: left;
+  margin-left: 38%;
+  margin-top: -2.5%;
+}
