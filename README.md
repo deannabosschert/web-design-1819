@@ -2,7 +2,8 @@
 ## IJ-oeververbinding-geluidsfragment met bijpassende grappige animatie
 https://deannabosschert.github.io/web-design-1819/
 
-[screenshot]
+![gif screencapture of webpage](https://paper-attachments.dropbox.com/s_D5FBBD5A463835C78C51F36454848EB6E88351D338EB8B52E4999650271BB022_1555575832415_webdesign_screencapture.gif)
+
 
 ## Design Challenge
 Larissa is blind. Ze maakt gebruik van een brailleregel, en van een screenreader. Je snapt dat heel veel van de gangbare design patterns niet optimaal werken voor haar omdat ze 100% vanuit een visueel oogpunt ontworpen zijn.
