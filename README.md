@@ -21,8 +21,15 @@ Hannes Wallrafen maakt audiocollages. Deze wil hij graag op een nieuwe website z
 - [x] Inleidende tekst voor animatie: "Onderstaand vindt u een geluidsproject van Hannes Wallrafen van Stichting Geluid in Zicht. Sinds zijn blindheid in 2004 is hij de wereld en de mogelijkheden van geluid gaan verkennen. Dankzij diverse opdrachtgevers kon hij in de afgelopen jaren vele geluidsprojecten tot stand brengen. Hieronder presenteert hij "Compilatie “IJ-oeververbinding” uit De stad bij nacht (2007)". Dit fragment wordt ingeluid door middel van een uitleg hoe hij tot dit fragment is gekomen.
 
 Deze inleiding presenteert zich in de vorm van een animatie; de titel van het fragment heeft de vorm van een veerboot aangenomen en de tekst van de inleiding zelf, fungeert als de golven in het water waarop de titelboot aan het deinen is. De veerboot zal nu afmeren. Bobobboboboobobobobobob borborborborborbor ruuuuuuuuuuuuuuuuuu"
-- [ ] Inleidende tekst voor geluidsfragment: "Dat was de inleiding. Druk op [key] om het geluidsfragment te beluisteren."
+- [x] Inleidende tekst voor geluidsfragment: "Dat was de inleiding. Druk op [key] om het geluidsfragment te beluisteren."
 - [ ] Connectie met brailleregel: voiceover zegt iets heel anders dan er op de brailleregel wordt weergegeven--> bijv golven of de boot zelf
 - [ ] API bekijken betreft geluiden maken met JS
 
 Bron: http://www.geluidinzicht.nl/geluidsprojecten/
+
+## User testing
+Ik wilde testen of mijn gebruiker (wie tot een bepaalde hoogte wel kleurcontrasten kan zien) een bewegend blok met hoog contrast ten opzichte van de achtergrond, kan zien. Dit heb ga ik testen door middel van een simpel prototype.
+
+https://deannabosschert.github.io/prototype_movingColors/
+
+![](https://paper-attachments.dropbox.com/s_D5FBBD5A463835C78C51F36454848EB6E88351D338EB8B52E4999650271BB022_1555579701260_moving_block.gif)
