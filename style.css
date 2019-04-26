@@ -5,10 +5,11 @@ html {
   max-width: 100%;
   overflow: hidden;
   font-family: sans-serif;
+  color: #999999;
 }
 
 body {
-  background: #e6ffff;
+  background: black;
   display: flex;
 }
 
@@ -40,7 +41,7 @@ p {
 }
 
 .boat {
-  width: 60%;
+  width: 80%;
   padding-left: 100%;
   padding-right: 100%;
   margin-top: 5%;
@@ -109,7 +110,7 @@ p {
   margin-left: -65%;
   margin-top: 45%;
   border-radius: 35%;
-  background: #ccebff;
+  background: white;
   animation: wave 15s infinite linear;
   overflow: hidden;
   position: absolute;
@@ -132,6 +133,7 @@ p {
   width: 80%;
   text-align: left;
   margin-left: -8%;
+  color: #454545;
 }
 
 .inleiding2 {
@@ -142,4 +144,6 @@ p {
   text-align: left;
   margin-left: 38%;
   margin-top: -2.5%;
+  color: #454545;
+
 }
