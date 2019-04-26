@@ -23,6 +23,7 @@ Deze inleiding presenteert zich in de vorm van een animatie; de titel van het fr
 - [x] Inleidende tekst voor geluidsfragment: "Dat was de inleiding. Druk op [key] om het geluidsfragment te beluisteren."
 - [x] Connectie met brailleregel: voiceover zegt iets heel anders dan er op de brailleregel wordt weergegeven--> bijv golven of de boot zelf --> helaas niet mogelijk
 - [ ] API bekijken betreft geluiden maken met JS?
+- [ ] Game van maken; eerst de boot moeten laten bewegen van links naar rechts?
 
 Bron: http://www.geluidinzicht.nl/geluidsprojecten/
 
