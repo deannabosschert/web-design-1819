@@ -4,6 +4,8 @@ https://deannabosschert.github.io/web-design-1819/
 
 ![gif screencapture of webpage](https://paper-attachments.dropbox.com/s_D5FBBD5A463835C78C51F36454848EB6E88351D338EB8B52E4999650271BB022_1555577904556_ezgif.com-optimize.gif)
 
+![gif screencapture of webpage in high contrast](https://paper-attachments.dropbox.com/s_D5FBBD5A463835C78C51F36454848EB6E88351D338EB8B52E4999650271BB022_1556272280825_chrome-capture+2.gif)
+
 ## Design Challenge
 Larissa is blind. Ze maakt gebruik van een brailleregel, en van een screenreader. Je snapt dat heel veel van de gangbare design patterns niet optimaal werken voor haar omdat ze 100% vanuit een visueel oogpunt ontworpen zijn.
 
