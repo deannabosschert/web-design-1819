@@ -22,14 +22,18 @@ Hannes Wallrafen maakt audiocollages. Deze wil hij graag op een nieuwe website z
 
 Deze inleiding presenteert zich in de vorm van een animatie; de titel van het fragment heeft de vorm van een veerboot aangenomen en de tekst van de inleiding zelf, fungeert als de golven in het water waarop de titelboot aan het deinen is. De veerboot zal nu afmeren. Bobobboboboobobobobobob borborborborborbor ruuuuuuuuuuuuuuuuuu"
 - [x] Inleidende tekst voor geluidsfragment: "Dat was de inleiding. Druk op [key] om het geluidsfragment te beluisteren."
-- [ ] Connectie met brailleregel: voiceover zegt iets heel anders dan er op de brailleregel wordt weergegeven--> bijv golven of de boot zelf
-- [ ] API bekijken betreft geluiden maken met JS
+- [x] Connectie met brailleregel: voiceover zegt iets heel anders dan er op de brailleregel wordt weergegeven--> bijv golven of de boot zelf --> helaas niet mogelijk
+- [ ] API bekijken betreft geluiden maken met JS?
 
 Bron: http://www.geluidinzicht.nl/geluidsprojecten/
 
 ## User testing
-Ik wilde testen of mijn gebruiker (wie tot een bepaalde hoogte wel kleurcontrasten kan zien) een bewegend blok met hoog contrast ten opzichte van de achtergrond, kan zien. Dit heb ga ik testen door middel van een simpel prototype.
+Ik wilde testen of mijn gebruiker (wie tot een bepaalde hoogte wel kleurcontrasten kan zien) een bewegend blok met hoog contrast ten opzichte van de achtergrond, kan zien. Dit ga ik testen door middel van een simpel prototype.
 
 https://deannabosschert.github.io/prototype_movingColors/
 
 ![](https://paper-attachments.dropbox.com/s_D5FBBD5A463835C78C51F36454848EB6E88351D338EB8B52E4999650271BB022_1555579701260_moving_block.gif)
+
+Resultaat: gebruiker kan wel met dit hoge contrast het blok zien bewegen:
+
+- [ ] CSS aanpassen op hoog contrast
